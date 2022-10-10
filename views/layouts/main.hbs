@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <div id="sideNav" class="sidenav"> 
+            <span>
+               <p class="navHeader">
+                    Categories
+               </p> 
+               <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            </span>
+            
+            <a href="/cpu">CPUs</a>
+            <a href="/gpu">Graphics Cards</a>
+            <a href="/ram">Memory</a>
+            <a href="/motherboard">Motherboards</a>
+            <a href="/powerSupply">Power Supplies</a>
+        </div>
+        <div>
+            <span class= "sideNavButton" style="font-size: x-large; cursor: pointer;" onclick="openNav()">&#9776;Choose Your Part</span>
+        </div>
+        <script>
+            function openNav(){
+                document.getElementById("sideNav").style.width = "250px";
+            }
+            function closeNav(){
+                document.getElementById("sideNav").style.width = "0px";
+            }
+        </script>
+        <div>
+        PC Vision
+        </div>
+        <div>
+        <span class= "navButton"  onclick="window.location.href = '/';">Home</span>
+        
+        <span class= "navButton"  onclick="window.location.href = '/bestBuy';">Guest</span>
+        
+        <span class= "navButton"  onclick="window.location.href = '/login';">Login</span>
+        
+        <span class= "navButton"  onclick="window.location.href = '/createAccount';">Create</span>
+        </div>
+    </header>
+    <main class="test">
+        {{{body}}}
+    </main>
+    <footer id="footer">
+        PC Vision &copy;2022
+    </footer>
+</body>
+</html>

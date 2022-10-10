@@ -1,0 +1,33 @@
+<div class="createAccBox">
+    <h1>Create Account</h1>
+    
+    {{#each flash}}
+    <p class="alert">{{this}}</p>
+    {{/each}}
+
+    <form action="/createAccount" method="POST" target="_self">
+        <p>Name</p>
+        <input type="text" name="name" placeholder="Enter your name" required>
+        <p>Email</p>
+        <input type="email" name="username" placeholder="Enter your email" required>
+        <p>Mobile</p>
+        <input type="tel" name="mobile" placeholder="Enter your mobile" required>
+        <p>Password</p>
+        <input type="password" name="password" placeholder="Enter your password" minlength="8" required id="password">
+        <p>Confirm Password</p>
+        <input type="password" name="password_confirm" placeholder="Confirm your password" required id="password_confirm" oninput="check(this)">
+        <br>
+        <br>
+        <input class="loginButton" type="submit" value="Create Account">
+    </form>
+</div>
+
+<script>
+    function check(input) {
+        if (input.value != document.getElementById('password').value) {
+            input.setCustomValidity('Password do not match.');
+        } else {
+            input.setCustomValidity('');
+        }
+    }
+</script>

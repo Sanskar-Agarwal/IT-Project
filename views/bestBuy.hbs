@@ -1,0 +1,76 @@
+<h1>See all of the BEST DEALS we can offer</h1>
+
+<h2>Best Deals for CPUs:</h2>
+<div class="item-grid">
+    {{#each cpu}}
+    <div class="card">
+        <a href="/cpuDeal/{{this._id}}">
+        <img src="{{this.image}}" width="100%">
+        </a>
+        <div class="container">
+            <h4>{{this.title}}</h4>
+            <p>{{this.price}}</p>
+        </div>
+    </div>
+    {{/each}}
+</div>
+
+<h2>Best Deals for Graphics Cards:</h2>
+<div class="item-grid">
+    {{#each gpu}}
+    <div class="card">
+        <a href="/gpuDeal/{{this._id}}">
+        <img src="{{this.image}}" width="100%">
+        </a>
+        <div class="container">
+            <h4>{{this.title}}</h4>
+            <p>{{this.price}}</p>
+        </div>
+    </div>
+    {{/each}}
+</div>
+
+<h2>Best Deals for Memory (RAM):</h2>
+<div class="item-grid">
+    {{#each ram}}
+    <div class="card">
+        <a href="/ramDeal/{{this._id}}">
+        <img src="{{this.image}}" width="100%">
+        </a>
+        <div class="container">
+            <h4>{{this.title}}</h4>
+            <p>{{this.price}}</p>
+        </div>
+    </div>
+    {{/each}}
+</div>
+
+<h2>Best Deals for Motherboards:</h2>
+<div class="item-grid">
+    {{#each motherboard}}
+    <div class="card">
+        <a href="/motherboardDeal/{{this._id}}">
+        <img src="{{this.image}}" width="100%">
+        </a>
+        <div class="container">
+            <h4>{{this.title}}</h4>
+            <p>{{this.price}}</p>
+        </div>
+    </div>
+    {{/each}}
+</div>
+
+<h2>Best Deals for Power Supplies:</h2>
+<div class="item-grid">
+    {{#each powersupply}}
+    <div class="card">
+        <a href="/powerSupplyDeal/{{this._id}}">
+        <img src="{{this.image}}" width="100%">
+        </a>
+        <div class="container">
+            <h4>{{this.title}}</h4>
+            <p>{{this.price}}</p>
+        </div>
+    </div>
+    {{/each}}
+</div>

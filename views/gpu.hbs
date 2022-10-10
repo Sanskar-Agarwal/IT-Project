@@ -1,0 +1,17 @@
+<div class="page-heading">
+    <h1>Graphics Cards</h1>
+</div>
+
+<div class="item-grid">
+    {{#each data}}
+    <div class="card">
+        <a href="/gpu/{{this._id}}">
+        <img src="{{this.image}}" width="100%">
+        </a>
+        <div class="container">
+            <h4>{{this.title}}</h4>
+            <p>{{this.price}}</p>
+        </div>
+    </div>
+    {{/each}}
+</div>
