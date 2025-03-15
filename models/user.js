@@ -38,6 +38,5 @@ userSchema.pre('save', function save(next) {
         next()
     })
 })
-
 const User = mongoose.model('User Registration Data', userSchema)
 module.exports = User

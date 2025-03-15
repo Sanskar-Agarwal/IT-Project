@@ -254,6 +254,7 @@ const get_powersupply_deal = async(req, res, next) => {
     }
 }
 
+
 module.exports = {
     get_cpu_data,
     get_cpu_item,

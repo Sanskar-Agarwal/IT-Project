@@ -28,6 +28,7 @@ def get_title(soup):
 		title = ""	
 	return title
 
+
 ## Function to extract Product Image
 def get_image(soup):
 	try:	

@@ -161,6 +161,7 @@ if __name__ == '__main__':
 		else: collection_name = motherboard
 		i += 1
 		
+		
 		# Loop for extracting product details from each link 
 		for link in reduced_list:
 			new_webpage = requests.get("https://www.amazon.com.au" + link, headers=HEADERS)
