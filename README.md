@@ -10,7 +10,7 @@ Maybe you can mention me or this repo in the acknowledgements too
   <h1>About</h1>
   </div>
   <p>
-  SmartShopper is a web application that has been developed as an interactive application to help the client find cheapest hardware items online by comparing between ebay, gumtree and amazon
+  PC Vision is a web application that has been developed as an interactive application to help the client find cheapest hardware items online by comparing between ebay, gumtree and amazon
   The project has been developed using Javascript, HTML and CSS. MongoDB has been used to store all patient information and the application had been deployed on Heroku (since heroku is a paid service, being on a student budget, we could only   
   maintain the deployment for the duration of the subject).
   Further information on the tech-stack and features can be found below.
