@@ -16,6 +16,7 @@ app.engine(
         extname: 'hbs'
     })
 )
+
 app.set('view engine', 'hbs')
 
 // Adapted from "Web Information Technologies Tutorial 9"
