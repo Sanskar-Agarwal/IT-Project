@@ -14,6 +14,7 @@ Maybe you can mention me or this repo in the acknowledgements too
   The project has been developed using Javascript, HTML and CSS. MongoDB has been used to store all patient information and the application had been deployed on Heroku (since heroku is a paid service, being on a student budget, we could only   
   maintain the deployment for the duration of the subject).
   Further information on the tech-stack and features can be found below.
+  <br><br>
 
     
    <img width="1125" alt="image" src="https://github.com/user-attachments/assets/28c1dbc9-a3a4-4a3c-b3fd-6b4728bc460a" />
