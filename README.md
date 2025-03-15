@@ -83,13 +83,13 @@ This project uses npm as package manager
 Clone the project
 
 ```bash
-  git clone https://github.com/Sanskar-Agarwal/Diabetes-Home-App/
+  git clone https://github.com/Sanskar-Agarwal/IT-Project/
 ```
 
 Go to the project directory
 
 ```bash
-  cd Diabetes-Home-App
+  cd IT Project
 ```
 
 Install dependencies
